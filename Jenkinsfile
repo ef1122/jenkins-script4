@@ -15,7 +15,7 @@ node('dev')
    }
    stage('Get GIT repository')
    {
-    git branch: 'main', url: 'https://github.com/ApasoftTraining/jenkins-script3.git'
+    git branch: 'main', url: 'https://github.com/ef1122/jenkins-script4.git'
    }
    stage('Compile'){
     sh 'mvn compile'
